@@ -12,8 +12,8 @@
     <!-- Navigation -->
     <a id="menu-toggle" href="#" class="btn btn-lg toggle"><span class="glyphicon glyphicon-list" aria-hidden="true"></span></a>
     <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><img src="assets/rsz_happyfiit_logo.jpg" class="img-responsive"></a>
+        <ul class="sidebar-nav">        	
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"></a>
             <li class="sidebar-brand">
                 <a href="#top"  onclick = $("#menu-close").click(); >Happyfiit</a>
             </li>
@@ -257,14 +257,21 @@
     <!-- Footer -->
     <footer>
         <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+				<h3>Drop us a line!</h3>
+				<hr>
+			</div>
+		</div>
+
             <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
+                <div class="col-sm-4 ">
                     <h4><strong>Happyfiit @Orange Grove</strong>
                     </h4>
                     <p>Leoforos Vasileos Konstantinou 5-7 Athens, Greece</p>
                     <ul class="list-unstyled">
-                        <p><li><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span> 211 4082551</li>
-                        <p><li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> <a href="mailto:info@happyfiit.com">info@happyfiit.com</a></li>                        
+                        <p><li><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span> 211 4082551</li></p>
+                        <p><li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> <a href="mailto:info@happyfiit.com">info@happyfiit.com</a></li></p>                    
                     </ul>
                     <br>
                     <ul class="list-inline">
@@ -278,10 +285,34 @@
                             <a href="#"><img src="assets/instagram.png"></a>
                         </li>
                     </ul>
-                    <hr class="small">
-                    <p class="text-muted">Copyright &copy;Happyfiit</p>
+                    
                 </div>
-            </div>
+            
+            
+    
+			<div class="col-sm-8 contact-form">
+				<form id="contact" method="post" class="form" role="form">
+				<div class="row">
+					<div class="col-xs-6 col-md-6 form-group">
+						<input class="form-control" id="name" name="name" placeholder="Name" type="text" required autofocus />
+					</div>
+					<div class="col-xs-6 col-md-6 form-group">
+						<input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
+					</div>
+				</div>
+				<textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
+				<br />
+				<div class="row">
+					<div class="col-xs-12 col-md-12 form-group">
+						<button class="btn btn-primary pull-right" type="submit">Submit</button>
+					</div>
+				</div>
+				</form>							
+        	</div>
+        </div>
+        <div class="row">
+        	<hr class="small">
+            <p class="text-center text-muted">Copyright &copy;Happyfiit</p>
         </div>
     </footer>
 
