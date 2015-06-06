@@ -10,10 +10,10 @@
 <body>
 
     <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-lg toggle"><span class="glyphicon glyphicon-list" aria-hidden="true"></span></a>
+    <a id="menu-toggle" href="#" class="btn btn-lg toggle"><span class="glyphicon glyphicon-list"></span></a>
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">        	
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"></a>
+            <a id="menu-close" href="#" class="btn btn-lg pull-right toggle"><span class="glyphicon glyphicon-arrow-left white"></span></a>
             <li class="sidebar-brand">
                 <a href="#top"  onclick = $("#menu-close").click(); >Happyfiit</a>
             </li>
@@ -244,18 +244,15 @@
         </div>
 	</section>
 
-    <!-- Map -->
+    <!-- Map
     <section id="contact" class="map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3145.2567749783752!2d23.738375122534542!3d37.971136493658186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bd6aa46d8f73%3A0xd056188cf06c1d65!2zzpvOtc-Jz4YuIM6SzrHPg865zrvOrc-Jz4IgzprPic69z4PPhM6xzr3PhM6vzr3Ov8-FIDUsIM6RzrjOrs69zrEgMTA2IDc0!5e0!3m2!1sel!2sgr!4v1428258057178" width="100%" height="600" frameborder="0" style="border:0"></iframe>
         <br />
-        <small>
-            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-        </small>
         </iframe>
-    </section>
+    -->
 
     <!-- Footer -->
-    <footer>
+    <section id="contact">
         <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
@@ -265,7 +262,7 @@
 		</div>
 
             <div class="row">
-                <div class="col-sm-4 ">
+                <div class="col-sm-3">
                     <h4><strong>Happyfiit @Orange Grove</strong>
                     </h4>
                     <p>Leoforos Vasileos Konstantinou 5-7 Athens, Greece</p>
@@ -288,17 +285,27 @@
                     
                 </div>
             
-            
+            <div class="col-sm-4">
+            	       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3145.2567749783752!2d23.738375122534542!3d37.971136493658186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bd6aa46d8f73%3A0xd056188cf06c1d65!2zzpvOtc-Jz4YuIM6SzrHPg865zrvOrc-Jz4IgzprPic69z4PPhM6xzr3PhM6vzr3Ov8-FIDUsIM6RzrjOrs69zrEgMTA2IDc0!5e0!3m2!1sel!2sgr!4v1428258057178" width="100%" height="200" frameborder="0" style="border:0"></iframe>
+        				<br />
+        				</iframe>
+        	</div>
     
-			<div class="col-sm-8 contact-form">
+			<div class="col-sm-5 contact-form puul-right">
 				<form id="contact" method="post" class="form" role="form">
 				<div class="row">
 					<div class="col-xs-6 col-md-6 form-group">
 						<input class="form-control" id="name" name="name" placeholder="Name" type="text" required autofocus />
 					</div>
 					<div class="col-xs-6 col-md-6 form-group">
+						<input class="form-control" id="surname" name="surname" placeholder="Surname" type="text" required autofocus />
+					</div>					
+					<div class="col-xs-6 col-md-6 form-group">
 						<input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
 					</div>
+					<div class="col-xs-6 col-md-6 form-group">
+						<input class="form-control" id="company" name="company" placeholder="Company" type="text" required autofocus />
+					</div>					
 				</div>
 				<textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
 				<br />
@@ -310,10 +317,10 @@
 				</form>							
         	</div>
         </div>
-        <div class="row">
+    </section>
+    <footer>        
         	<hr class="small">
-            <p class="text-center text-muted">Copyright &copy;Happyfiit</p>
-        </div>
+            <p class="text-center text-muted">Copyright &copy;Happyfiit</p>        
     </footer>
 
     <!-- jQuery -->
