@@ -69,7 +69,7 @@ hr.small {
     height: 100%;
     margin-right: -250px;
     overflow-y: auto;
-    background: #222;
+    background: #2c3e50;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -ms-transition: all 0.4s ease 0s;
@@ -127,7 +127,8 @@ hr.small {
     z-index: 1;
     position: fixed;
     top: 0;
-    right: 0;
+    right: 0;    
+
 }
 
 #sidebar-wrapper.active {
@@ -175,18 +176,8 @@ hr.small {
     margin-bottom: 30px;
 }
 
-/* Callout */
-
-.callout {
-    display: table;
-    width: 100%;
-    height: 400px;
-    color: #fff;
-    background: url(runner_feet.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+.partners{
+	background-color: #ecf0f1;
 }
 
 /* Portfolio */
