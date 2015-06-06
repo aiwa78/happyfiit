@@ -49,7 +49,5 @@ end
 group :production do
 	gem 'pg'
 	gem 'rails_12factor'
-	config.serve_static_assets = true
-	config.assets.compile = true
 end
 	
