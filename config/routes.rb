@@ -3,6 +3,8 @@ root 'pages#home'
 get "about"=>"pages#about"
 get "how_it_works"=>"pages#how_it_works"
 get "download_sdk"=>"pages#download_sdk"
+get "faq"=>"pages#faq"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

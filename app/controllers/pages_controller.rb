@@ -11,4 +11,7 @@ class PagesController < ApplicationController
   def download_sdk
   	send_file 'public/HappyfiitAndroidSDKdocumentation.pdf';
   end 
+
+  def faq
+  end 
 end
